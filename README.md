@@ -4,7 +4,7 @@ This repository contains the necessary components to build an Advanced Driver As
 
 ## Table of Contents
 - [GUI](#GUI)
-- [Yocto Image](#Yocto Image)
+- [Yocto Image](#Yocto-Image)
 - [Web Server](#Web Server)
 - [Acknowledgments](#Acknowledgments)
 - [References](#References)
