@@ -60,6 +60,9 @@ ADAS.API ↗: A RESTful API for accessing advanced driver assistance system (ADA
 CarDashboard ↗: A Qt-based dashboard for displaying ADAS data and other vehicle information.
 GitHub Repo [Link](https://github.com/Hussam82/CarDashboard).
 
+Yocto Image ↗: This repository contains code and instructions for building a custom Linux distribution using Yocto Project.
+GitHub Repo [Link](https://github.com/Hussam82/Yocto-Image).
+
 ## Contributing
 Contributions to the ADAS GUI project are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
 
