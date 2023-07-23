@@ -1,0 +1,76 @@
+﻿@model ADAS.Application.Models.Emails.BugReportViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bug Report</title>
+    <style>
+        /* Define your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333333;
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #eeeeee;
+            font-weight: bold;
+            color: #333333;
+        }
+        td {
+            background-color: #ffffff;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #888888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bug Report</h1>
+        <ul>
+            <li><strong>Car ID:</strong> @Model.CarId</li>
+            <li><strong>Car Owner Email:</strong> @Model.CarOwnerEmail</li>
+            <!-- Add any other relevant user details here -->
+        </ul>
+        <table>
+            <tr>
+                <th>Bug ID</th>
+                <th>Bug Title</th>
+            </tr>
+            <tr>
+                <td>@Model.Id</td>
+                <td>@Model.Title</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            If you have any questions, please contact our support team at support@adas.com.
+        </div>
+    </div>
+</body>
+</html>

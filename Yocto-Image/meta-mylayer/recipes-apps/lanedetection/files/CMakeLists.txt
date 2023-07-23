@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.15)
+project(lanedetection)
+
+set(CMAKE_CXX_STANDARD 17)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(${PROJECT_NAME} "main.cpp" "lane-detection.cpp")
+target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
+install(TARGETS ${PROJECT_NAME} DESTINATION "/etc/Models/")
+install(FILES dashcam4.mp4 DESTINATION "/etc/LaneDetection")

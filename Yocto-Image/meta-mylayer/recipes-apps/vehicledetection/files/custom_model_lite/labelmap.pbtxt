@@ -1,0 +1,200 @@
+item {
+  id: 1
+  name: 'Car'
+}
+
+item {
+  id: 2
+  name: 'Danger Ahead'
+}
+
+item {
+  id: 3
+  name: 'Speed Limit 30'
+}
+
+item {
+  id: 4
+  name: 'Speed Limit 60'
+}
+
+item {
+  id: 5
+  name: 'No Entry'
+}
+
+item {
+  id: 6
+  name: 'Left Sharp Curve'
+}
+
+item {
+  id: 7
+  name: 'Huddle Road'
+}
+
+item {
+  id: 8
+  name: 'Speed Limit 50'
+}
+
+item {
+  id: 9
+  name: 'Right Curve Ahead'
+}
+
+item {
+  id: 10
+  name: 'Speed Limit 100'
+}
+
+item {
+  id: 11
+  name: 'Speed Limit 120'
+}
+
+item {
+  id: 12
+  name: 'Slippery Road'
+}
+
+item {
+  id: 13
+  name: 'Speed Limit 70'
+}
+
+item {
+  id: 14
+  name: 'human'
+}
+
+item {
+  id: 15
+  name: 'Stop'
+}
+
+item {
+  id: 16
+  name: 'Right Sharp Curve'
+}
+
+item {
+  id: 17
+  name: 'Road Work'
+}
+
+item {
+  id: 18
+  name: 'No Over Taking'
+}
+
+item {
+  id: 19
+  name: 'Snow Warning Sign'
+}
+
+item {
+  id: 20
+  name: 'Traffic Signals Ahead'
+}
+
+item {
+  id: 21
+  name: 'No Over Taking Trucks'
+}
+
+item {
+  id: 22
+  name: 'Speed Limit 80'
+}
+
+item {
+  id: 23
+  name: 'End of Right Road (Go straight)'
+}
+
+item {
+  id: 24
+  name: 'GreenSignal'
+}
+
+item {
+  id: 25
+  name: 'Turn Right'
+}
+
+item {
+  id: 26
+  name: 'Give Way'
+}
+
+item {
+  id: 27
+  name: 'RedSignal'
+}
+
+item {
+  id: 28
+  name: 'YellowSignal'
+}
+
+item {
+  id: 29
+  name: 'Turn Left'
+}
+
+item {
+  id: 30
+  name: 'Go Straight'
+}
+
+item {
+  id: 31
+  name: 'Deer Zone'
+}
+
+item {
+  id: 32
+  name: 'Pedestrian'
+}
+
+item {
+  id: 33
+  name: 'Go Right or Straight'
+}
+
+item {
+  id: 34
+  name: 'No Stopping'
+}
+
+item {
+  id: 35
+  name: 'Left Curve Ahead'
+}
+
+item {
+  id: 36
+  name: 'Truck Sign'
+}
+
+item {
+  id: 37
+  name: 'No Waiting'
+}
+
+item {
+  id: 38
+  name: 'Cycle Zone'
+}
+
+item {
+  id: 39
+  name: 'Go Left or Straight'
+}
+
+item {
+  id: 40
+  name: 'RoundAbout'
+}
+

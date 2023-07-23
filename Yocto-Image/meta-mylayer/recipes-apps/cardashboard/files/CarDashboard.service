@@ -1,0 +1,15 @@
+[Unit]
+Description=My Qt5 App
+After=multi-user.target local-fs.target weston.service
+Requires=weston.service
+
+[Service]
+User=root
+Restart=on-failure
+Type=oneshot
+EnvironmentFile=/etc/CarDashboard.env
+ExecStart=/usr/bin/CarDashboard
+StandardOutput=console
+
+[Install]
+WantedBy=multi-user.target weston.service

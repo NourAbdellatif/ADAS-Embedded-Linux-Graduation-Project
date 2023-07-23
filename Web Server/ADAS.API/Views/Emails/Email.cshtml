@@ -1,0 +1,77 @@
+@model ADAS.Application.Models.Emails.UserRegistrationViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to ADAS System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333333;
+        }
+
+        p {
+            color: #555555;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            color: #555555;
+            margin-bottom: 5px;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            color: #777777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to ADAS System!</h2>
+        
+        <p>Thank you for registering with our Advanced Driver Assistance System (ADAS). We are excited to have you as part of our community.</p>
+
+        <p>With ADAS, you can experience cutting-edge technology that enhances your driving experience, improves safety, and provides valuable assistance on the road.</p>
+
+        <p>Please find below your registration details:</p>
+        <ul>
+            <li><strong>Email:</strong> @Model.Email</li>
+            <li><strong>Password:</strong> @Model.Password</li>
+            <!-- Add any other relevant user details here -->
+        </ul>
+
+        <p>If you have any questions or need assistance, please don't hesitate to reach out to our support team at support@adas-system.com.</p>
+
+        <p>We hope you have a fantastic experience with ADAS and enjoy the benefits of our advanced features.</p>
+
+        <p>Safe travels!</p>
+
+        <p class="footer">Sincerely,<br>The ADAS System Team</p>
+    </div>
+</body>
+</html>

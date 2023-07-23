@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0" />
+      <PackageReference Include="SendGrid" Version="9.28.1" />
+      <PackageReference Include="Stripe.net" Version="41.21.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+        <HintPath>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\7.0.2\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
