@@ -44,27 +44,21 @@ This project was the graduation project of a group of 5 from Faculty of Engineer
 
 My teammates are:
 
-Ahmed Osama Abdulmaksoud
+[Ahmed Osama Abdulmaksoud](https://www.linkedin.com/in/ahmed-osama-73a37820a/)
 
-LinkedIn Link: https://www.linkedin.com/in/ahmed-osama-73a37820a/
+[Abdulrahman Yousry](https://www.linkedin.com/in/abdelrahman-yousry-323baa194/)
 
-Abdulrahman Yousry
+[Abdulrahman Farid](https://www.linkedin.com/in/abdelrahman-farid-218708217/)
 
-LinkedIn Link: https://www.linkedin.com/in/abdelrahman-yousry-323baa194/
+[Nour Abdelatif](https://www.linkedin.com/in/nourabdellatif/)
 
-Abdulrahman Farid
-
-LinkedIn Link: https://www.linkedin.com/in/abdelrahman-farid-218708217/
-
-Nour Abdelatif
-
-LinkedIn Link: https://www.linkedin.com/in/nourabdellatif/
+[Hussam Ali](https://www.linkedin.com/in/hussam-ali30/)
 
 ## References
-ADAS.API ↗: A RESTful API for accessing advanced driver assistance system (ADAS) data and its GitHub Repo Link: https://github.com/NourAbdellatif/ADAS.API
+ADAS.API ↗: A RESTful API for accessing advanced driver assistance system (ADAS) data and its GitHub Repo [Link](https://github.com/NourAbdellatif/ADAS.API)
 
 CarDashboard ↗: A Qt-based dashboard for displaying ADAS data and other vehicle information.
-GitHub Repo Link: https://github.com/Hussam82/CarDashboard
+GitHub Repo [Link](https://github.com/Hussam82/CarDashboard).
 
 ## Contributing
 Contributions to the ADAS GUI project are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
