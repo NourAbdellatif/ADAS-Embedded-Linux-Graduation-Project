@@ -1,6 +1,6 @@
 # ADAS GUI with Machine Learning Models
 
-![ADAS GUI](adas_gui.png)
+![ADAS GUI](https://github.com/NourAbdellatif/ADAS---Embedded-Linux-Graduation-Project/assets/49102241/a94d77d2-a54e-49fe-9452-da4dbd67f91e)
 
 ## Table of Contents
 - [Introduction](#introduction)
