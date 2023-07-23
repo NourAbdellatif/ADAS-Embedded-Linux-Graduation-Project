@@ -9,8 +9,6 @@
 - [Usage](#usage)
 - [Modes of Operation](#modes-of-operation)
 - [Machine Learning Models](#machine-learning-models)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
