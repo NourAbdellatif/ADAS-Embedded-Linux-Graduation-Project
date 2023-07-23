@@ -1,4 +1,4 @@
-# Yocto-Image (Graduation Project)
+# Yocto-Image 
 This repository contains code and instructions for building a custom Linux distribution using Yocto Project. The resulting image can be used on embedded devices such as Raspberry Pi 4. It contains recipes for computer vision application like Lane Detection, Pedestrian Detection, Vehicle Detection, Traffic Signs/Light Detection. Also, it contains some recipes to install some dependecies that is required by these applications.
 
 ## Features
