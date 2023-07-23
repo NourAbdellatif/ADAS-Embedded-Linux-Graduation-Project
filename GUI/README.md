@@ -1,32 +1,81 @@
-# ADAS (Advanced Driving Assistance System)
+# ADAS GUI with Machine Learning Models
 
-ADAS is a software system designed to assist drivers in driving a vehicle safely and efficiently. This system uses various sensors, cameras, and algorithms to monitor the road and the surroundings of the vehicle, providing real-time feedback to the driver.
+![ADAS GUI](adas_gui.png)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Modes of Operation](#modes-of-operation)
+- [Machine Learning Models](#machine-learning-models)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The ADAS GUI is a Graphical User Interface (GUI) developed using the QT framework, designed to provide Advanced Driver Assistance System (ADAS) functionalities. It interfaces with five different machine learning models to enhance the safety and awareness of drivers on the road. The GUI enables users to monitor and receive real-time insights on various aspects of the driving environment.
 
 ## Features
 
-ADAS includes the following features:
+- Real-time Drowsiness Detection: The ADAS GUI employs a machine learning model to detect driver drowsiness and alerts the driver when signs of drowsiness are detected.
 
-- Lane Detection: To keep the driver's attention.
-- Close vehicles detection: To be ready for future work.
-- Traffic Sign Recognition: Identifies and displays speed limit signs and other traffic signals.
-- Pedestrian Detection: Detects pedestrians in the path of the vehicle and alerts the driver.
+- Lane Detection: The GUI uses a machine learning model to detect lane boundaries and provides visual feedback to the driver, ensuring they stay within the designated lanes.
+
+- Pedestrian Detection: The ADAS GUI is equipped with a machine learning model that detects pedestrians in the vicinity of the vehicle, providing essential alerts to the driver.
+
+- Traffic Light Detection: This feature utilizes a machine learning model to detect traffic lights and provides real-time information to the driver about upcoming traffic signals.
+
+- Traffic Sign Detection: The GUI uses a machine learning model to recognize and interpret traffic signs, aiding the driver in adhering to traffic regulations.
+
+- Two Modes of Operation:
+  - Programmer Mode: In this mode, advanced users and developers have access to additional features and settings, allowing them to fine-tune the system and perform debugging.
+  - Customer Mode: This mode is designed for regular users who want a simple and user-friendly interface without the complexities of the programmer mode.
 
 ## Installation
 
-ADAS is a software system that is typically installed in the vehicle's computer system. The installation process may vary depending on the make and model of the vehicle. It is recommended that the installation is done by a certified professional to ensure proper installation and functionality.
+To run the ADAS GUI, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/adas-gui.git`
+2. Install the necessary dependencies by running `pip install -r requirements.txt`.
+3. Ensure you have QT installed on your system. You can download it from [QT's official website](https://www.qt.io/download).
+4. Build and compile the project using QT Creator or the appropriate QT commands for your platform.
 
 ## Usage
 
-ADAS is designed to assist drivers in driving safely and efficiently. The system provides real-time feedback to the driver, helping them avoid accidents and stay within the speed limit. To use ADAS, the driver must activate the system and follow the instructions provided.
+Once the installation is complete, launch the ADAS GUI application on your device. The main interface will display the real-time camera feed and ADAS information. Depending on the mode of operation selected, different features and settings will be available to the user.
 
-## Limitations
+## Modes of Operation
 
-ADAS is designed to assist drivers, but it is not a substitute for safe driving practices. The system may not detect all hazards on the road, and the driver must remain alert at all times. It is also important to note that the system may not function properly in extreme weather conditions or poor visibility.
+### 1. Programmer Mode
 
-## License
+Programmer mode is designed for developers and advanced users who want to customize and fine-tune the ADAS system. It provides the following additional functionalities:
 
-ADAS is licensed under the [MIT License](https://opensource.org/licenses/MIT). 
+- Access to machine learning model parameters and configurations.
+- Debugging options to monitor the performance of individual components.
+- Authentication by the agency to login and change the application configuration for the customer.
 
-## Acknowledgments
+### 2. Customer Mode
 
-ADAS was developed by a team of engineers and software developers who are committed to improving road safety. We would like to thank our team for their hard work and dedication to this project.
+Customer mode offers a simplified interface, making it easy for regular users to benefit from the ADAS system without dealing with technical complexities. It provides essential functionalities such as:
+
+- Real-time drowsiness detection alerts.
+- Lane departure warnings and assistance.
+- Pedestrian and traffic sign alerts.
+- Traffic light status and alerts.
+
+## Machine Learning Models
+
+The ADAS GUI interfaces with the following machine learning models:
+
+1. Drowsiness Detection Model: Detects driver drowsiness based on facial cues and eye movement patterns.
+
+2. Lane Detection Model: Identifies lane boundaries in the camera feed to ensure the driver stays within the correct lane.
+
+3. Pedestrian Detection Model: Detects pedestrians in the vicinity of the vehicle to warn the driver of potential hazards.
+
+4. Traffic Light Detection Model: Recognizes traffic lights in the camera feed and provides real-time information about their status.
+
+5. Traffic Sign Detection Model: Recognizes and interprets traffic signs to assist the driver in obeying traffic regulations.
+
+additional features unique to your implementation. Include appropriate credits, references, and licenses for the machine learning models used in the project.
