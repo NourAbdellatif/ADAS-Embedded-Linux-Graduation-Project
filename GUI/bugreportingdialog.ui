@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bugReportingDialog</class>
+ <widget class="QDialog" name="bugReportingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>941</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="submitReportButton">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>370</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url(:/Images/report.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="bugOptions">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>110</y>
+      <width>631</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select your bug topic to report</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bug option 10</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>711</x>
+      <y>463</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>REPORT</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

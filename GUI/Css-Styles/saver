@@ -1,0 +1,1490 @@
+QDialog
+{
+	background-color: white;
+}
+
+QDialog#IdsDialog
+{
+	background-color: black;
+}
+
+QDialog#ProgDialog
+{
+	background-color: rgb(0, 0, 128);
+	color: white;
+}
+
+/*
+ProgDialog > QGroupBox > QSpinBox {
+	background-color: transparent;
+}
+
+ProgDialog > QGroupBox > QComboBox {
+	background-color: transparent;
+}
+*/
+
+CustomerDialog
+{
+	background-color: rgb(46, 139, 87);
+}
+
+/*
+QLCDNumber {
+	color: black;
+}
+*/
+
+QGroupBox {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/*
+QListWidget {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+*/
+
+QLabel {
+	color: white;
+}
+
+QHeaderView {
+  background-color: blue;
+}
+
+
+QWidget#CustomerDialog > QGroupBox#groupBox_2 > QPushButton[text = "."]{
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 10px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(0, 0, 0);
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QWidget#CustomerDialog > QGroupBox#groupBox_2 > QPushButton[text = "."]:!pressed {
+	background-image: url("/etc/GP-qt5-materials/images/mech2.jpg");
+}
+
+QWidget#CustomerDialog > QGroupBox#groupBox_2 > QPushButton[text = "."]:hover:!pressed {
+	background-image: url("/etc/GP-qt5-materials/images/mech2.jpg");
+	background-color: grey;
+}
+
+QWidget#CustomerDialog {
+	background-color: black;
+	/* background-image: url("/etc/GP-qt5-materials/images/customerAnimation.gif"); */
+	color: #000000;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+QWidget#CustomerDialog > QGroupBox#groupBox_2 > QPushButton[text = "."]:pressed {
+  background-color: black;
+  background-image: url("/etc/GP-qt5-materials/images/mech1.jpg");
+  color: white;
+}
+
+
+
+QListWidget {
+	background-color: transparent;
+	color: white;
+}
+
+QGroupBox[title = "Agency"] > QPushButton[text = "."]:hover:!pressed {
+	background-color: rgb(240, 240, 240);
+	color: rgb(240, 240, 240);
+}
+
+/*
+QPushButton[text = "x"]:focus
+{
+border: 2px solid rgb(100%, 0%, 0%);
+}
+*/
+
+
+
+
+
+QPushButton[text = "ReportBugs"]
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+
+QPushButton:hover:!pressed[text = "ReportBugs"]
+{
+	background-color: rgb(100%, 0%, 0%);
+	color: #ffffff;
+}
+
+QPushButton:pressed[text = "ReportBugs"]
+{
+	background-color: rgb(75%, 0%, 0%);
+	color: rgb(75%, 0%, 0%);
+}
+
+QPushButton[text = "Calendar"]
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: rgb(80, 80, 80);
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+
+QPushButton:hover[text = "Calendar"]
+{
+	background-color: rgb(46, 139, 87);
+	color: #ffffff;
+}
+
+QPushButton:pressed[text = "Calendar"]
+{
+	background-color: rgb(46, 139, 87);
+	color: rgb(46, 139, 87);
+}
+
+
+
+
+
+LoginDialog {
+	background-image: url("/etc/GP-qt5-materials/images/Login.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+LoginDialog > QPushButton
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: rgb(0, 50, 150);
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+
+LoginDialog > QPushButton:hover
+{
+	background-color: white;
+	color: rgb(0, 50, 150);
+}
+
+LoginDialog > QPushButton:pressed
+{
+	background-color: rgb(0, 50, 150);
+	color: rgb(0, 50, 150);
+}
+
+
+
+
+
+missIdDialog > QPushButton
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: rgb(0%, 0%, 75%);
+	color: rgb(0, 0, 128);
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+
+missIdDialog > QPushButton:hover
+{
+	background-color: rgb(0%, 0%, 100%);
+	color: #ffffff;
+}
+
+missIdDialog > QPushButton:pressed
+{
+	background-color: rgb(0%, 0%, 75%);
+	color: rgb(0%, 0%, 75%);
+}
+
+
+
+
+/*
+ProgDialog > QPushButton
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: white;
+	color: rgb(0, 0, 128);
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+*/
+
+ProgDialog > QGroupBox > QPushButton:hover
+{
+	background-color: #FFBF00;
+	color: black;
+}
+
+ProgDialog > QGroupBox > QPushButton:pressed
+{
+	background-color: black;
+	color: black;
+}
+
+ProgDialog > QGroupBox > QLabel{
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+QDialog > QLineEdit
+{
+	background-color: white;
+	color: rgb(0, 50, 150);
+	padding: 2px;
+	border: 2px solid rgb(0, 50, 150);
+	border-radius: 8px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 15px;
+	/*
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	*/
+}
+
+
+
+
+
+QPushButton#missingButton
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: rgb(75%, 0%, 0%);
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+
+QPushButton:hover:!pressed#missingButton
+{
+	background-color: rgb(100%, 0%, 0%);
+	color: #ffffff;
+}
+
+QPushButton:pressed#missingButton
+{
+	background-color: rgb(75%, 0%, 0%);
+	color: rgb(75%, 0%, 0%);
+}
+
+
+
+
+
+QPushButton#okButton
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: rgb(0%, 75%, 0%);
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+
+QPushButton:hover:!pressed#okButton
+{
+	background-color: rgb(0%, 100%, 0%);
+	color: #ffffff;
+}
+
+QPushButton:pressed#okButton
+{
+	background-color: rgb(0%, 75%, 0%);
+	color: rgb(0%, 75%, 0%);
+}
+
+
+
+
+
+QPushButton[text = "Save"]
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: rgb(0, 75%, 0);
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+
+QPushButton:hover[text = "Save"]
+{
+	background-color: rgb(0%, 100%, 0%);
+	color: #ffffff;
+}
+
+QPushButton:pressed[text = "Save"]
+{
+	background-color: rgb(0%, 75%, 0%);
+	color: rgb(0%, 75%, 0%);
+}
+
+
+
+
+
+QPushButton[text = "Quit"]
+{
+	padding: 2px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: rgb(75%, 0%, 0%);
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5) 1 1;
+}
+
+QPushButton:hover:!pressed[text = "Quit"]
+{
+	background-color: rgb(100%, 0%, 0%);
+	color: #ffffff;
+}
+
+QPushButton:pressed[text = "Quit"]
+{
+	background-color: rgb(75%, 0%, 0%);
+	color: rgb(75%, 0%, 0%);
+}
+
+/*
+QDialog > QPushButton{
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+}
+*/
+
+QWidget#CustomerDialog > QPushButton[text = "Save"] {
+	background-image: url("/etc/GP-qt5-materials/images/buttonTry.jpg");
+	color: rgb(0, 75%, 0);
+}
+
+QWidget#CustomerDialog > QPushButton[text = "Save"]:hover:!pressed {
+	color: rgb(0, 100%, 0);
+}
+
+QWidget#CustomerDialog > QPushButton[text = "Save"]:pressed {
+	color: transparent;
+}
+
+QWidget#CustomerDialog > QPushButton[text = "ReportBugs"] {
+	background-image: url("/etc/GP-qt5-materials/images/buttonTry.jpg");
+	color: #FDE910;
+}
+
+QWidget#CustomerDialog > QPushButton[text = "ReportBugs"]:hover:!pressed {
+	color: red;	
+}
+
+QWidget#CustomerDialog > QPushButton[text = "ReportBugs"]:pressed {
+	color: transparent;
+}
+
+QMessageBox {
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Copyright (c) DevSec Studio. All rights reserved.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*-----QWidget-----*/
+MainWindow > QWidget
+{
+        background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0.00480769 rgba(3, 50, 76, 255),stop:0.293269 rgba(6, 82, 125, 255),stop:0.514423 rgba(8, 117, 178, 255),stop:0.745192 rgba(7, 108, 164, 255),stop:1 rgba(3, 51, 77, 255));
+	color: #fff;
+	selection-background-color: #fff;
+	selection-color: #000;
+
+}
+
+
+/*-----QLabel-----*/
+MainWindow > QLabel
+{
+        background-color: transparent;
+	color: #fff;
+
+}
+
+
+/*-----QMenuBar-----*/
+MainWindow > QMenuBar
+{
+        background-color: #4a5157;
+	color: #fff;
+
+}
+
+
+MainWindow > QMenuBar::item
+{
+        background-color: transparent;
+	border-left: 1px solid #003333;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+
+MainWindow > QMenuBar::item:selected
+{
+        background-color: #003333;
+	border: 1px solid #006666;
+	color: #fff;
+
+}
+
+
+MainWindow > QMenuBar::item:pressed
+{
+        background-color: #006666;
+	border: 1px solid #006666;
+	color: #fff;
+
+}
+
+
+/*-----QMenu-----*/
+MainWindow > QMenu
+{
+    background-color: #4a5157;
+    border: 1px solid #4a5157;
+    padding: 10px;
+        color: #fff;
+
+}
+
+
+MainWindow > QMenu::item
+{
+    background-color: transparent;
+    padding: 2px 20px 2px 20px;
+        min-width: 200px;
+
+}
+
+
+MainWindow > QMenu::separator
+{
+        background-color: #242424;
+	height: 1px;
+
+}
+
+
+MainWindow > QMenu::item:disabled
+{
+    color: #555;
+    background-color: transparent;
+    padding: 2px 20px 2px 20px;
+
+}
+
+
+MainWindow > QMenu::item:selected
+{
+        background-color: #003333;
+	border: 1px solid #006666;
+	color: #fff;
+
+}
+
+
+/*-----QToolButton-----*/
+MainWindow > QToolButton
+{
+        background-color: transparent;
+	color: #fff;
+	padding: 3px;
+	margin-left: 1px;
+}
+
+
+MainWindow > QToolButton:hover
+{
+        background-color: rgba(70,162,218,50%);
+	border: 1px solid #46a2da;
+	color: #000;
+
+}
+
+
+MainWindow > QToolButton:pressed
+{
+        background-color: #727272;
+	border: 1px solid #46a2da;
+
+}
+
+
+MainWindow > QToolButton:checked
+{
+        background-color: #727272;
+	border: 1px solid #222;
+}
+
+
+/*-----QPushButton-----*/
+MainWindow > QPushButton
+{
+        background-color: #4891b4;
+	color: #fff;
+	min-width: 80px;
+	border-radius: 4px;
+	padding: 5px;
+
+}
+
+
+MainWindow > QPushButton::flat
+{
+        background-color: transparent;
+	border: none;
+	color: #000;
+
+}
+
+
+MainWindow > QPushButton::disabled
+{
+        background-color: #606060;
+	color: #959595;
+	border-color: #051a39;
+
+}
+
+
+MainWindow > QPushButton::hover
+{
+background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(32, 45, 63, 255),stop:1 rgba(41, 57, 80, 255));
+color: #fff;
+}
+
+MainWindow > QPushButton::pressed
+{
+background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(20, 29, 40, 255),stop:1 rgba(27, 38, 53, 255));
+color: #fff;
+border: 0px;
+border-radius: 5px;
+padding: 5px;
+}
+
+
+
+
+MainWindow > QPushButton::checked
+{
+        background-color: #bd5355;
+	border: 1px solid #bd5355;
+
+}
+
+
+/*-----QLineEdit-----*/
+MainWindow > QLineEdit
+{
+        background-color: #242424;
+	color : #fff;
+	border: 1px solid #1d1d1d;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 4px;
+
+}
+
+
+/*-----QPlainTExtEdit-----*/
+MainWindow > QPlainTextEdit
+{
+        background-color: #242424;
+	color : #fff;
+	border: 1px solid #1d1d1d;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 4px;
+
+}
+
+
+/*-----QToolBox-----*/
+MainWindow > QToolBox
+{
+        background-color: transparent;
+	border: 1px solid #1d1d1d;
+
+}
+
+
+MainWindow > QToolBox::tab
+{
+        background-color: #002b2b;
+	border: 1px solid #1d1d1d;
+
+}
+
+
+MainWindow > QToolBox::tab:hover
+{
+        background-color: #006d6d;
+	border: 1px solid #1d1d1d;
+
+}
+
+
+/*-----QComboBox-----*/
+MainWindow > QComboBox
+{
+    background-color: #4a5157;
+    padding-left: 6px;
+    color: #fff;
+    height: 20px;
+        border-radius: 4px;
+
+}
+
+
+MainWindow > QComboBox::disabled
+{
+        background-color: #404040;
+	color: #656565;
+	border-color: #051a39;
+
+}
+
+
+MainWindow > QComboBox:on
+{
+    background-color: #4a5157;
+        color: #fff;
+
+}
+
+
+MainWindow > QComboBox QAbstractItemView
+{
+    background-color: #4a5157;
+    color: #fff;
+    selection-background-color: #002b2b;
+        selection-color: #fff;
+    outline: 0;
+
+}
+
+
+MainWindow > QComboBox::drop-down
+{
+        background-color: #4a5157;
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+        border-radius: 4px;
+    width: 15px;
+
+}
+
+
+MainWindow > QComboBox::down-arrow
+{
+    image: url(://arrow-down.png);
+    width: 8px;
+    height: 8px;
+
+}
+
+
+/*-----QDoubleSpinBox & QCalendarWidget-----*/
+QDoubleSpinBox,
+QCalendarWidget QSpinBox
+{
+        background-color: #242424;
+	color : #fff;
+	border: 1px solid #1d1d1d;
+	border-radius: 4px;
+	padding: 3px;
+	padding-left: 5px;
+
+}
+
+
+QDoubleSpinBox::up-button,
+QCalendarWidget QSpinBox::up-button
+{
+        background-color: #4a5157;
+    width: 16px;
+        border-top-right-radius: 4px;
+    border-width: 1px;
+        border-color: #1d1d1d;
+
+}
+
+
+QDoubleSpinBox::up-button:hover,
+QCalendarWidget QSpinBox::up-button:hover
+{
+        background-color: #585858;
+
+}
+
+
+QDoubleSpinBox::up-button:pressed,
+QCalendarWidget QSpinBox::up-button:pressed
+{
+        background-color: #252525;
+    width: 16px;
+    border-width: 1px;
+
+}
+
+
+QDoubleSpinBox::up-arrow,
+QCalendarWidget QSpinBox::up-arrow
+{
+    image: url(://arrow-up.png);
+    width: 7px;
+    height: 7px;
+
+}
+
+
+QDoubleSpinBox::down-button,
+QCalendarWidget QSpinBox::down-button
+{
+        background-color: #4a5157;
+    width: 16px;
+    border-width: 1px;
+        border-bottom-right-radius: 4px;
+	border-color: #1d1d1d;
+
+}
+
+
+QDoubleSpinBox::down-button:hover,
+QCalendarWidget QSpinBox::down-button:hover
+{
+        background-color: #585858;
+
+}
+
+
+QDoubleSpinBox::down-button:pressed,
+QCalendarWidget QSpinBox::down-button:pressed
+{
+        background-color: #252525;
+    width: 16px;
+    border-width: 1px;
+
+}
+
+
+QDoubleSpinBox::down-arrow,
+QCalendarWidget QSpinBox::down-arrow
+{
+    image: url(://arrow-down.png);
+    width: 7px;
+    height: 7px;
+
+}
+
+
+/*-----QGroupBox-----*/
+MainWindow > QGroupBox
+{
+    border: 1px solid;
+    border-color: #1d1d1d;
+        border-radius: 4px;
+    margin-top: 23px;
+
+}
+
+
+MainWindow > QGroupBox::title
+{
+    background-color: #002b2b;
+    color: #fff;
+        subcontrol-position: top left;
+    subcontrol-origin: margin;
+    padding: 5px;
+        min-width: 100px;
+	border: 1px solid #1d1d1d;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: none;
+
+}
+
+
+/*-----QHeaderView-----*/
+MainWindow > QHeaderView::section
+{
+    background-color: #4a5157;
+        border: none;
+    color: #fff;
+        padding: 4px;
+
+}
+
+
+MainWindow > QHeaderView::section:disabled
+{
+    background-color: #525251;
+    color: #656565;
+
+}
+
+
+MainWindow > QHeaderView::section:checked
+{
+    background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(227, 227, 227, 255),stop:1 rgba(187, 187, 187, 255));
+    color: #000;
+
+}
+
+
+QHeaderView::section::vertical::first,
+QHeaderView::section::vertical::only-one
+{
+    border-left: 1px solid #003333;
+
+}
+
+
+MainWindow > QHeaderView::section::vertical
+{
+    border-left: 1px solid #003333;
+}
+
+
+QHeaderView::section::horizontal::first,
+QHeaderView::section::horizontal::only-one
+{
+    border-left: 1px solid #003333;
+
+}
+
+
+QHeaderView::section::horizontal
+{
+    border-left: 1px solid #003333;
+
+}
+
+
+MainWindow > QTableCornerButton::section
+{
+    background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(227, 227, 227, 255),stop:1 rgba(187, 187, 187, 255));
+        border: 1px solid #000;
+    color: #fff;
+
+}
+
+
+/*-----QCalendarWidget-----*/
+MainWindow > QCalendarWidget QToolButton
+{
+        background-color: transparent;
+	color: white;
+
+}
+
+
+MainWindow > QCalendarWidget QToolButton::hover
+{
+        background-color: #006666;
+	border: 1px solid #006666;
+	color: #fff;
+
+}
+
+
+MainWindow > QCalendarWidget QMenu
+{
+        width: 120px;
+	left: 20px;
+	color: white;
+
+}
+
+
+MainWindow > QCalendarWidget QWidget
+{
+        alternate-background-color: #4a5157;
+	color: #fff;
+
+}
+
+
+MainWindow > QCalendarWidget QAbstractItemView:enabled
+{
+        color: #fff;
+	background-color: #242424;
+	selection-background-color: #002b2b;
+	selection-color: #fff;
+
+}
+
+
+MainWindow > QCalendarWidget QAbstractItemView:disabled
+{
+        color: #404040;
+
+}
+
+
+/*-----QTreeWidget-----*/
+MainWindow > QTreeView
+{
+        show-decoration-selected: 0;
+	alternate-background-color: transparent;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	font: 8pt;
+
+}
+
+
+MainWindow > QTreeView::item:selected
+{
+        color:#fff;
+	background-color: #002b2b;
+	border-radius: 0px;
+
+}
+
+
+MainWindow > QTreeView::item:!selected:hover
+{
+    background-color: #5e5e5e;
+    border: none;
+    color: white;
+
+}
+
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings
+{
+        image: url(://tree-closed.png);
+
+}
+
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings
+{
+        image: url(://tree-open.png);
+
+}
+
+
+/*-----QListView-----*/
+MainWindow > QListView
+{
+        background-color: transparent;
+	alternate-background-color: transparent;
+    border : none;
+    color: #fff;
+    show-decoration-selected: 1;
+    outline: 0;
+        border: 1px solid #1d1d1d;
+
+}
+
+
+MainWindow > QListView::disabled
+{
+        background-color: #656565;
+	color: #1b1b1b;
+    border: 1px solid #656565;
+
+}
+
+
+QListView::item
+{
+        background-color: transparent;
+    padding: 1px;
+
+}
+
+
+MainWindow > QListView::item:selected
+{
+        background-color: #002b2b;
+	border: 1px solid #002b2b;
+	color: #fff;
+
+}
+
+
+MainWindow > QListView::item:selected:!active
+{
+        background-color: #002b2b;
+	border: 1px solid #002b2b;
+	color: #fff;
+
+}
+
+
+MainWindow > QListView::item:selected:active
+{
+        background-color: #002b2b;
+	border: 1px solid #002b2b;
+	color: #fff;
+
+}
+
+
+MainWindow > QListView::item:hover {
+    background-color: #5e5e5e;
+    border: none;
+    color: #000;
+
+}
+
+
+/*-----QCheckBox-----*/
+MainWindow > QCheckBox
+{
+        background-color: transparent;
+    color: #fff;
+        border: none;
+
+}
+
+
+MainWindow > QCheckBox::indicator
+{
+    background-color: lightgray;
+    border: 1px solid #000;
+    width: 12px;
+    height: 12px;
+
+}
+
+
+MainWindow > QCheckBox::indicator:checked
+{
+    image:url("./ressources/check.png");
+        background-color: #002b2b;
+    border: 1px solid #3a546e;
+
+}
+
+
+MainWindow > QCheckBox::indicator:unchecked:hover
+{
+        border: 1px solid #46a2da;
+
+}
+
+
+MainWindow > QCheckBox::disabled
+{
+        color: #656565;
+
+}
+
+
+MainWindow > QCheckBox::indicator:disabled
+{
+        background-color: #656565;
+	color: #656565;
+    border: 1px solid #656565;
+
+}
+
+
+/*-----QRadioButton-----*/
+MainWindow > QRadioButton
+{
+        color: #fff;
+	background-color: transparent;
+
+}
+
+
+MainWindow > QRadioButton::indicator::unchecked:hover
+{
+        background-color: #d3d3d3;
+	border: 2px solid #002b2b;
+	border-radius: 6px;
+}
+
+
+MainWindow > QRadioButton::indicator::checked
+{
+        border: 2px solid #52beff;
+	border-radius: 6px;
+	background-color: #002b2b;
+	width: 9px;
+	height: 9px;
+
+}
+
+
+/*-----QScrollBar-----*/
+MainWindow > QScrollBar:vertical
+{
+   border: none;
+   width: 12px;
+
+}
+
+
+MainWindow > QScrollBar::handle:vertical
+{
+   border: none;
+   border-radius : 0px;
+   background-color: #7a7a7a;
+   min-height: 80px;
+   width : 12px;
+
+}
+
+
+MainWindow > QScrollBar::handle:vertical:pressed
+{
+   background-color: #5d5f60;
+
+}
+
+
+MainWindow > QScrollBar::add-line:vertical
+{
+   border: none;
+   background: transparent;
+   height: 0px;
+   subcontrol-position: bottom;
+   subcontrol-origin: margin;
+
+}
+
+
+MainWindow > QScrollBar::add-line:vertical:hover
+{
+   background-color: transparent;
+
+}
+
+
+MainWindow > QScrollBar::add-line:vertical:pressed
+{
+   background-color: #3f3f3f;
+
+}
+
+
+MainWindow > QScrollBar::sub-line:vertical
+{
+   border: none;
+   background: transparent;
+   height: 0px;
+
+}
+
+
+MainWindow > QScrollBar::sub-line:vertical:hover
+{
+   background-color: transparent;
+
+}
+
+
+MainWindow > QScrollBar::sub-line:vertical:pressed
+{
+   background-color: #3f3f3f;
+
+}
+
+
+MainWindow > QScrollBar::up-arrow:vertical
+{
+   width: 0px;
+   height: 0px;
+   background: transparent;
+
+}
+
+
+MainWindow > QScrollBar::down-arrow:vertical
+{
+   width: 0px;
+   height: 0px;
+   background: transparent;
+
+}
+
+
+MainWindow > QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{
+   background-color: #222222;
+
+}
+
+
+MainWindow > QScrollBar:horizontal
+{
+   border: none;
+   height: 12px;
+
+}
+
+
+MainWindow > QScrollBar::handle:horizontal
+{
+   border: none;
+   border-radius : 0px;
+   background-color: #7a7a7a;
+   min-height: 80px;
+   height : 12px;
+
+}
+
+
+MainWindow > QScrollBar::handle:horizontal:pressed
+{
+   background-color: #5d5f60;
+
+}
+
+
+MainWindow > QScrollBar::add-line:horizontal
+{
+   border: none;
+   background: transparent;
+   height: 0px;
+   subcontrol-position: bottom;
+   subcontrol-origin: margin;
+
+}
+
+
+MainWindow > QScrollBar::add-line:horizontal:hover
+{
+   background-color: transparent;
+
+}
+
+
+MainWindow > QScrollBar::add-line:horizontal:pressed
+{
+   background-color: #3f3f3f;
+
+}
+
+
+MainWindow > QScrollBar::sub-line:horizontal
+{
+   border: none;
+   background: transparent;
+   height: 0px;
+
+}
+
+
+MainWindow > QScrollBar::sub-line:horizontal:hover
+{
+   background-color: transparent;
+
+}
+
+
+MainWindow > QScrollBar::sub-line:horizontal:pressed
+{
+   background-color: #3f3f3f;
+
+}
+
+
+MainWindow > QScrollBar::up-arrow:horizontal
+{
+   width: 0px;
+   height: 0px;
+   background: transparent;
+
+}
+
+
+MainWindow > QScrollBar::down-arrow:horizontal
+{
+   width: 0px;
+   height: 0px;
+   background: transparent;
+
+}
+
+
+MainWindow > QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+{
+   background-color: #222222;
+
+}
+
+
+/*-----QProgressBar-----*/
+MainWindow > QProgressBar
+{
+        border: 1px solid #1d1d1d;
+    text-align: center;
+        border-radius: 10px;
+	color: #fff;
+	font-weight: bold;
+
+}
+
+
+MainWindow > QProgressBar::chunk
+{
+    background-color: #3b86ae;
+        border-radius: 9px;
+    margin: 0.5px;
+
+}
+
+
+/*-----QStatusBar-----*/
+MainWindow > QStatusBar
+{
+        background-color: #4a5157;
+	color: #ffffff;
+	border-color: #051a39;
+
+}
+
+
+/*-----QSizeGrip-----*/
+MainWindow > QSizeGrip
+{
+        background-color: image("./ressources/sizegrip.png"); /*To replace*/
+	border: none;
+
+}
