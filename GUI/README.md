@@ -77,3 +77,4 @@ The ADAS GUI interfaces with the following machine learning models:
 5. Traffic Sign Detection Model: Recognizes and interprets traffic signs to assist the driver in obeying traffic regulations.
 
 additional features unique to your implementation. Include appropriate credits, references, and licenses for the machine learning models used in the project.
+
