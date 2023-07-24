@@ -70,3 +70,4 @@ Before contributing, please review the contribution guidelines.
 
 ## License
 The ADAS GUI is released under the MIT License.
+
